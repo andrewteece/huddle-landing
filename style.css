@@ -9,11 +9,11 @@
   --ff-primary: 'Open Sans', sans-serif;
 
   --fw-reg: 400;
-  --fw-semi: 600:
+  --fw-semi: 600;
   --fw-bold: 700;
 
-  --fs-xsm: .75rem;
-  --fs-sm: .875rem;
+  --fs-xsm: 0.75rem;
+  --fs-sm: 0.875rem;
   --fs-base: 1rem;
   --fs-md: 1.25rem;
   --fs-lg: 1.5rem;
@@ -25,10 +25,70 @@
   --fs-xlgHighlight: 6rem;
 
   --clr-neutral-100: hsl(0, 0%, 100%); /* white */
-  --clr-neutral-200: hsl(207, 100%, 98%);  /* very pale blue */
-  --clr-neutral-800: hsl(192, 100%, 9%);  /* very dark cyan */
+  --clr-neutral-200: hsl(207, 100%, 98%); /* very pale blue */
+  --clr-neutral-800: hsl(192, 100%, 9%); /* very dark cyan */
 
   --clr-primary-400: hsl(321, 100%, 78%); /* light pink */
   --clr-primary-500: hsl(322, 100%, 66%); /* pink */
   --clr-primary-700: hsl(0, 100%, 63%); /* light red */
+}
+
+/* CSS RESET */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* BODY/GLOBAL */
+
+body {
+  font-family: var(--ff-primary);
+  font: var(--fs-base);
+  font-weight: var(--fw-reg);
+}
+
+/* UTILITY */
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
