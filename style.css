@@ -52,13 +52,6 @@ svg {
   display: block;
 }
 
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
 h1,
 h2,
 h3,
@@ -79,6 +72,26 @@ body {
   font-family: var(--ff-primary);
   font: var(--fs-base);
   font-weight: var(--fw-reg);
+  height: 100svh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--ff-headings);
+  line-height: 1.5;
+  font-weight: var(--fw-bold);
+}
+
+p {
+  font-family: var(--ff-primary);
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 /* UTILITY */
@@ -91,4 +104,87 @@ body {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flow--content > * + * {
+  margin-bottom: 2em;
+}
+
+.spacer {
+  padding-inline: 2rem;
+}
+
+.text--align {
+  text-align: center;
+}
+
+/* COMPONENTS */
+
+.btn--light {
+  font-size: var(--fs-xsm);
+  color: var(--clr-primary-500);
+  background-color: var(--clr-neutral-100);
+  outline: 1px solid var(--clr-primary-500);
+  box-shadow: 0px 0px 5px 0px rgba(255, 82, 193, 0.22);
+  border: none;
+  border-radius: 24px;
+  padding: 0.3rem 1rem;
+}
+
+.btn--light:hover,
+.btn--light:focus {
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-primary-500);
+  transition: all 400ms ease-in-out;
+}
+
+.btn--dark {
+  font-size: var(--fs-xsm);
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.5px;
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-primary-500);
+  border: none;
+  border-radius: 24px;
+  padding: 0.75rem 3rem;
+  filter: drop-shadow(0px 3px 7px rgba(0, 37, 46, 0.22));
+}
+
+.btn--dark:hover,
+.btn--dark:focus {
+  color: var(--clr-primary-500);
+  background-color: var(--clr-neutral-100);
+  outline: 2px solid var(--clr-primary-500);
+  transition: all 400ms ease-in-out;
+}
+
+/* HEADER */
+
+header {
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+  padding-inline: 1rem;
+}
+
+.logo {
+  width: 6rem;
+  height: 1rem;
+}
+
+/* MAIN */
+
+section h1 {
+  font-size: var(--fs-lg);
+  margin-block-end: 1.5em;
+}
+
+section p {
+  font-size: var(--fs-sm);
+  margin-block-end: 3em;
 }
