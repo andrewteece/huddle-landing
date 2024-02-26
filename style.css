@@ -26,6 +26,7 @@
 
   --clr-neutral-100: hsl(0, 0%, 100%); /* white */
   --clr-neutral-200: hsl(207, 100%, 98%); /* very pale blue */
+  --clr-neutral-300: hsl(208, 12%, 55%);
   --clr-neutral-800: hsl(192, 100%, 9%); /* very dark cyan */
 
   --clr-primary-400: hsl(321, 100%, 78%); /* light pink */
@@ -50,16 +51,6 @@ img,
 svg {
   max-width: 100%;
   display: block;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  overflow-wrap: break-word;
 }
 
 a {
@@ -94,6 +85,14 @@ p {
   margin: 0 auto;
 }
 
+.section--bottom {
+  margin-bottom: 8rem;
+}
+
+.article--bottom {
+  margin-bottom: 10rem;
+}
+
 /* UTILITY */
 
 .visually-hidden {
@@ -118,6 +117,10 @@ p {
 
 .spacer {
   padding-inline: 2rem;
+}
+
+.margin--y {
+  margin-block: 6rem;
 }
 
 .text--align {
@@ -187,4 +190,36 @@ section h1 {
 section p {
   font-size: var(--fs-sm);
   margin-block-end: 3em;
+}
+
+/* STATS */
+
+.stats__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats__count {
+  font-size: var(--fs-lgHighlight);
+  font-weight: var(--fw-bold);
+  margin: 0;
+}
+
+.stats__text {
+  color: var(--clr-neutral-300);
+}
+
+/* ARTICLES */
+
+article {
+  position: relative;
+  margin-bottom: 10rem;
+}
+
+article h2 {
+  font-size: var(--fs-md);
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
 }
