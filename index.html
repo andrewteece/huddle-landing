@@ -20,13 +20,15 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="wrapper">
-    <header class="flex">
-      <img src="images/logo.svg" class="logo" alt="" />
-      <button type="button" class="btn--light">Try It Free</button>
+  <body>
+    <header>
+      <div class="wrapper flex">
+        <img src="images/logo.svg" class="logo" alt="" />
+        <button type="button" class="btn--light">Try It Free</button>
+      </div>
     </header>
-    <main class="wrapper">
-      <section class="spacer">
+    <main>
+      <section class="spacer wrapper">
         <div class="main">
           <h1 class="main__title">Build The Community Your Fans Will Love</h1>
           <p class="main__text">
@@ -60,45 +62,74 @@
         class="article--img-top"
         alt=""
       />
-      <section>
-        <article class="text--align article--bkg">
+      <section class="article--bkg">
+        <article class="article--flow wrapper">
+          <div class="article__info">
+            <h2>Grow Together</h2>
+            <p>
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
           <img
-            src="images/illustration-grow-together.svg"
-            alt="users discussing and building a community"
+            src="./images/illustration-grow-together.svg"
+            class="article--img"
+            alt=""
           />
-          <h2>Grow Together</h2>
-          <p>
-            Generate meaningful discussions with your audience and build a
-            strong, loyal community. Think of the insightful conversations you
-            miss out on with a feedback form.
-          </p>
         </article>
-        <img src="./images/bg-section-bottom-desktop-1.svg" alt="" />
-        <article class="text--align">
+      </section>
+      <img
+        src="./images/bg-section-bottom-desktop-1.svg"
+        class="article--img-top"
+        alt=""
+      />
+      <section>
+        <article class="article--flow wrapper">
           <img
             src="images/illustration-flowing-conversation.svg"
             alt="user conversations"
+            class="article--img"
           />
-          <h2>Flowing Conversations</h2>
-          <p>
-            You wouldn't paginate a conversation in real life, so why do it
-            online? Our threads have just-in-time loading for a more natural
-            flow.
-          </p>
-        </article>
-        <article class="text--align">
-          <img
-            src="images/illustration-your-users.svg"
-            alt="user using huddle"
-          />
-          <h2>Your Users</h2>
-          <p>
-            It takes no time at all to integrate Huddle with your app's
-            authentication solution. This means, once signed in to your app,
-            your users can start chatting immediately.
-          </p>
+          <div class="article__info">
+            <h2>Flowing Conversations</h2>
+            <p>
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
         </article>
       </section>
+      <img
+        src="./images/bg-section-top-desktop-1.svg"
+        class="article--img-top"
+        alt=""
+      />
+      <section class="article--bkg">
+        <article class="article--flow wrapper">
+          <div class="article__info">
+            <h2>Your Users</h2>
+            <p>
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+
+          <img
+            src="images/illustration-your-users.svg"
+            class="article--img"
+            alt="user using huddle"
+          />
+        </article>
+      </section>
+      <img
+        src="./images/bg-section-bottom-desktop-2.svg"
+        class="article--img-top"
+        alt=""
+      />
+
       <section class="section--bottom">
         <h2>Ready to Build Your Community?</h2>
         <button>Get Started for Free</button>

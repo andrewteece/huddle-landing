@@ -135,6 +135,10 @@ p {
   padding-inline: 2rem;
 }
 
+.col {
+  flex-basis: 50%;
+}
+
 .margin--y {
   margin-block: 6rem;
 }
@@ -307,15 +311,32 @@ article {
 }
 
 article h2 {
-  font-size: var(--fs-md);
+  font-size: var(--fs-xlg);
   margin-top: 4rem;
   margin-bottom: 1.5rem;
+}
+
+.article--flow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-block: 5rem;
+}
+
+.article__info {
+  width: 45%;
 }
 
 .article--bkg {
   background-color: var(--clr-neutral-200);
 }
 
+.article--img {
+  width: 80%;
+  max-width: 31.25rem;
+}
+
 .article--img-top {
-  max-width: 100%;
+  width: 100%;
 }
