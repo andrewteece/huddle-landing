@@ -20,16 +20,16 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="wrapper">
     <header class="flex">
       <img src="images/logo.svg" class="logo" alt="" />
       <button type="button" class="btn--light">Try It Free</button>
     </header>
     <main class="wrapper">
       <section class="spacer">
-        <div class="text--align">
-          <h1>Build The Community Your Fans Will Love</h1>
-          <p>
+        <div class="main">
+          <h1 class="main__title">Build The Community Your Fans Will Love</h1>
+          <p class="main__text">
             Huddle re-imagines the way we build communities. You have a voice,
             but so does your audience. Create connections with your users as you
             engage in genuine discussion.
@@ -37,12 +37,12 @@
           <button type="button" class="btn--dark">Get Started for Free</button>
         </div>
       </section>
-      <div class="spacer margin--y">
+      <div class="flex--img flow--bottom">
         <img src="images/screen-mockups.svg" alt="" />
       </div>
       <section class="section--bottom">
         <h2 class="visually-hidden">Community Stats</h2>
-        <div>
+        <div class="stats">
           <div class="stats__content">
             <img src="images/icon-communities.svg" class="stats__img" alt="" />
             <p class="stats__count">1.4k+</p>
@@ -55,8 +55,13 @@
           </div>
         </div>
       </section>
-      <section class="spacer">
-        <article class="text--align">
+      <img
+        src="./images/bg-section-top-desktop-1.svg"
+        class="article--img-top"
+        alt=""
+      />
+      <section>
+        <article class="text--align article--bkg">
           <img
             src="images/illustration-grow-together.svg"
             alt="users discussing and building a community"
@@ -68,6 +73,7 @@
             miss out on with a feedback form.
           </p>
         </article>
+        <img src="./images/bg-section-bottom-desktop-1.svg" alt="" />
         <article class="text--align">
           <img
             src="images/illustration-flowing-conversation.svg"
