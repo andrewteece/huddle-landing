@@ -135,10 +135,6 @@ p {
   padding-inline: 2rem;
 }
 
-.col {
-  flex-basis: 50%;
-}
-
 .margin--y {
   margin-block: 6rem;
 }
@@ -339,4 +335,23 @@ article h2 {
 
 .article--img-top {
   width: 100%;
+}
+
+@media (max-width: 750px) {
+  article h2 {
+    font-size: var(--fs-md);
+  }
+  .article--flow {
+    flex-direction: column;
+  }
+
+  .article__info {
+    width: 100%;
+    padding-inline: 1rem;
+    text-align: center;
+  }
+
+  .flex--reverse {
+    flex-direction: column-reverse;
+  }
 }
