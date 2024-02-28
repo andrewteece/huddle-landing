@@ -126,43 +126,54 @@
       </section>
       <img
         src="./images/bg-section-bottom-desktop-2.svg"
-        class="article--img-top"
+        class="article--img-top section--bottom"
         alt=""
       />
 
-      <section class="section--bottom">
-        <h2>Ready to Build Your Community?</h2>
-        <button>Get Started for Free</button>
+      <section class="main section--bottom">
+        <h2 class="section--title">Ready to Build Your Community?</h2>
+        <button type="button" class="btn--dark">Get Started for Free</button>
       </section>
     </main>
+    <img src="./images/bg-footer-top-desktop.svg" alt="" />
     <footer>
-      <h3>Newsletter</h3>
-      <p>
-        To recieve tips on how to grow your community, sign up to our weekly
-        newsletter. We’ll never send you spam or pass on your email address
-      </p>
-      <form>
-        <input type="email" name="email" id="email" />
-        <button type="submit">Subscribe</button>
-      </form>
-      <div>
-        <div>
-          <img src="images/logo.svg" alt="" />
+      <div class="wrapper footer">
+        <div class="footer__right">
+          <h3>Newsletter</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address
           </p>
+          <form>
+            <input type="email" name="email" id="email" />
+            <button class="footer--btn" type="submit">Subscribe</button>
+          </form>
         </div>
-        <div>
-          <img src="images/icon-phone.svg" alt="" />
-          <a href="tel:+1-543-123-4567">Phone: +1-543-123-4567 </a>
-          <img src="images/icon-email.svg" alt="" />
-          <a href="mailto:example@company.com">example@company.com</a>
-        </div>
-        <div>
-          <i class="fa-brands fa-square-facebook fa-2xl"></i>
-          <i class="fa-brands fa-instagram fa-2xl"></i>
-          <i class="fa-brands fa-square-x-twitter fa-2xl"></i>
+        <div class="footer__left">
+          <div class="footer__left--info">
+            <div>
+              <img src="./images/logo 2.svg" class="logo" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+              </p>
+            </div>
+            <div>
+              <div class="footer__contacts">
+                <img src="images/icon-phone.svg" alt="" />
+                <a href="tel:+1-543-123-4567">Phone: +1-543-123-4567 </a>
+              </div>
+              <div class="footer__contacts">
+                <img src="images/icon-email.svg" alt="" />
+                <a href="mailto:example@company.com">example@company.com</a>
+              </div>
+            </div>
+            <div class="footer__socials">
+              <i class="fa-brands fa-square-facebook fa-2xl"></i>
+              <i class="fa-brands fa-instagram fa-2xl"></i>
+              <i class="fa-brands fa-square-x-twitter fa-2xl"></i>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
