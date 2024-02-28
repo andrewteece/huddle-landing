@@ -462,6 +462,11 @@ form input {
   transition: all 400ms ease-in-out;
 }
 
+.logo-2 {
+  width: 15rem;
+  height: 2.375rem;
+}
+
 @media (max-width: 750px) {
   .footer {
     flex-direction: column;
@@ -482,5 +487,9 @@ form input {
 
   form {
     text-align: right;
+  }
+
+  .footer__left p {
+    width: 100%;
   }
 }
