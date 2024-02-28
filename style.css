@@ -381,7 +381,7 @@ footer {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding-inline: 5rem;
+  padding-inline: 3rem;
 }
 
 .footer__left {
@@ -403,7 +403,7 @@ footer {
   flex-direction: column;
   row-gap: 1rem;
   margin-top: 5rem;
-  margin-left: 10rem;
+  margin-left: 6rem;
 }
 
 .footer__right h3 {
@@ -448,6 +448,15 @@ form input {
   background-color: var(--clr-primary-500);
   border: none;
   border-radius: 8px;
-  padding-block: 0.6rem;
-  padding-inline: 2rem;
+  padding-block: 0.75rem;
+  padding-inline: 3rem;
+  margin-left: 1.5rem;
+}
+
+.footer--btn:hover,
+.footer--btn:focus {
+  color: var(--clr-primary-500);
+  background-color: var(--clr-neutral-100);
+  outline: 1px solid var(--clr-primary-500);
+  transition: all 400ms ease-in-out;
 }
