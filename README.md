@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/andrewteece/huddle-landing)
-- Live Site URL: [Add live site URL here](https://andrewteece.github.io/huddle-landing/)
+- Solution URL: [https://github.com/andrewteece/huddle-landing](https://github.com/andrewteece/huddle-landing)
+- Live Site URL: [https://andrewteece.github.io/huddle-landing/](https://andrewteece.github.io/huddle-landing/)
 
 ## My process
 
@@ -43,9 +43,9 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://andrewteece.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/andrewteece)
-- Twitter - [@yourusername](https://www.twitter.com/teece_andrew)
+- Website - [https://andrewteece.com](https://andrewteece.com)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/andrewteece](https://www.frontendmentor.io/profile/andrewteece)
+- Twitter - [https://www.twitter.com/teece_andrew](https://www.twitter.com/teece_andrew)
 
 
 
