@@ -445,6 +445,20 @@ form input {
   padding-inline: 5rem;
 }
 
+#text {
+  position: relative;
+  bottom: 0.5rem;
+  font-size: var(--fs-base);
+  font-family: var(--ff-headings);
+}
+
+@media (max-width: 750px) {
+  #text {
+    bottom: 4rem;
+    font-size: var(--fs-sm);
+  }
+}
+
 .footer--btn {
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-500);
