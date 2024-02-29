@@ -182,6 +182,7 @@ p {
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-500);
   transition: all 400ms ease-in-out;
+  transform: scale(1.2);
 }
 
 .btn--dark {
@@ -449,7 +450,7 @@ form input {
   background-color: var(--clr-primary-500);
   border: none;
   border-radius: 8px;
-  padding-block: 0.75rem;
+  padding-block: 1rem;
   padding-inline: 3rem;
   margin-left: 1.5rem;
 }
